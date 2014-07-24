@@ -19,8 +19,8 @@
 
 # http://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/HDFSHighAvailabilityWithQJM.html
 
-include_recipe 'hadoop::default'
-include_recipe 'hadoop::hadoop_hdfs_checkconfig'
+include_recipe 'continuuity_hadoop::default'
+include_recipe 'continuuity_hadoop::hadoop_hdfs_checkconfig'
 
 package 'hadoop-hdfs-journalnode' do
   action :install

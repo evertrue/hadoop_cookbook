@@ -17,8 +17,8 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::repo'
-include_recipe 'hadoop::zookeeper'
+include_recipe 'continuuity_hadoop::repo'
+include_recipe 'continuuity_hadoop::zookeeper'
 
 package 'hbase' do
   action :install

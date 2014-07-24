@@ -1,4 +1,4 @@
-name             'hadoop'
+name             'continuuity_hadoop'
 maintainer       'Continuuity, Inc.'
 maintainer_email 'ops@continuuity.com'
 license          'Apache 2.0'

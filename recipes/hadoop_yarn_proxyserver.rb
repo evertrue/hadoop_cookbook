@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::default'
+include_recipe 'continuuity_hadoop::default'
 
 if node['hadoop'].key?('yarn_site') && node['hadoop']['yarn_site'].key?('yarn.web-proxy.address')
   Chef::Log.info("Setting up YARN Web Proxy at #{node['hadoop']['yarn_site']['yarn.web-proxy.address']}")

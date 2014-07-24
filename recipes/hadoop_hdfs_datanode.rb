@@ -17,8 +17,8 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::default'
-include_recipe 'hadoop::hadoop_hdfs_checkconfig'
+include_recipe 'continuuity_hadoop::default'
+include_recipe 'continuuity_hadoop::hadoop_hdfs_checkconfig'
 
 package 'hadoop-hdfs-datanode' do
   action :install

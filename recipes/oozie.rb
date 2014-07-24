@@ -17,8 +17,8 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::repo'
-include_recipe 'hadoop::oozie_client'
+include_recipe 'continuuity_hadoop::repo'
+include_recipe 'continuuity_hadoop::oozie_client'
 
 package 'oozie' do
   action :install

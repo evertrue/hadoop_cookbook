@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::default'
+include_recipe 'continuuity_hadoop::default'
 
 # Only CDH supports a TaskTracker package
 package 'hadoop-0.20-mapreduce-tasktracker' do

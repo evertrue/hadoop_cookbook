@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::hive'
+include_recipe 'continuuity_hadoop::hive'
 
 package 'hcatalog' do
   action :install

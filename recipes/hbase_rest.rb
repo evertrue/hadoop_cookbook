@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::hbase'
+include_recipe 'continuuity_hadoop::hbase'
 
 package 'hbase-rest' do
   action :install

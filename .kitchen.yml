@@ -12,5 +12,5 @@ platforms:
 suites:
   - name: default
     run_list:
-      - recipe[hadoop::default]
+      - recipe[continuuity_hadoop::default]
     attributes:

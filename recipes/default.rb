@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::repo'
+include_recipe 'continuuity_hadoop::repo'
 
 package 'hadoop-client' do
   action :install

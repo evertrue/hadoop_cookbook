@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::default'
+include_recipe 'continuuity_hadoop::default'
 
 # TODO: check for these and set them up
 # mapreduce.cluster.local.dir = #{hadoop_tmp_dir}/mapred/local

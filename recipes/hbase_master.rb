@@ -17,8 +17,8 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::hbase'
-include_recipe 'hadoop::hbase_checkconfig'
+include_recipe 'continuuity_hadoop::hbase'
+include_recipe 'continuuity_hadoop::hbase_checkconfig'
 
 package 'hbase-master' do
   action :install

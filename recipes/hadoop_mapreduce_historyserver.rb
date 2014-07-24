@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe 'hadoop::default'
+include_recipe 'continuuity_hadoop::default'
 
 package 'hadoop-mapreduce-historyserver' do
   action :install
